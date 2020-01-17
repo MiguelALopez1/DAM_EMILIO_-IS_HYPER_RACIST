@@ -1,0 +1,420 @@
+
+<HTML><!-- #BeginTemplate "/Templates/Textbook Header.dwt" --><!-- DW6 -->
+<!--This file created 1/4/01 11:17 PM by Tony Wayne-->
+<HEAD>
+<!-- #BeginEditable "doctitle" -->
+<TITLE>Free Body Diagrams ...Basics</TITLE>
+<style type="text/css">
+<!--
+.style3 {color: #CC0000}
+-->
+</style>
+<script src="../../Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<style type="text/css">
+<!--
+.style4 {font-size: 1.5 em}
+-->
+</style>
+<style type="text/css">
+<!--
+.style5 {font-size: 1.5 ems}
+-->
+</style>
+<style type="text/css">
+<!--
+.style6 {color: #FF0000}
+-->
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+</script>
+<!-- #EndEditable --> 
+<META NAME=GENERATOR CONTENT="Claris Home Page 3.0">
+<link href="../../CSS/All_Arial.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.style1 {font-family: Impact, "Arial Black", Arial, Helvetica, sans-serif}
+-->
+</style>
+<script src="../../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="../../SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.styleChapterMenu {
+	color: #FFFFFF;
+	font-size: 80%;
+}
+body,td,th {
+    font-size: 0.9em;
+    color: #000000;
+}
+a:link {
+    color: #3B3CFF;
+}
+a:visited {
+    color: #F138F2;
+}
+a:hover {
+    color: #000000;
+}
+a:active {
+    color: #000000;
+}
+-->
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" text="#3B3CFF" LINK="#000000" VLINK="#F138F2" ALINK="#000000">
+<table width="100%" border="0" cellpadding="0" bgcolor="#000066" bordercolor="#000066">
+  <tr> 
+    <td width="90%" height="31"> 
+      <div align="left" class="style1">
+        <div align="left"><a href="../../index.html"><img src="../../pics/HeaderTitle.png" alt="" width="341" height="35" border="0"></a></div>
+      </div></td>
+    <td width="47%"><ul id="MenuBar1" class="MenuBarHorizontal">
+      <li>
+        <div align="center"><a href="../../impulse/reading/index.html" class="MenuBarItemSubmenu styleChapterMenu">Chapters</a>
+          <ul>
+            <li><a href="../../dim/reading/index.html">Dimensional Analysis</a></li>
+            <li><a href="../../scientificnotation/reading/index.html">Scientific Notation</a></li>
+            <li><a href="../../significantfigures/reading/index.html">Significant Figures</a></li>
+            <li><a href="../../vectors/reading/index.html">Vectors</a></li>
+            <li><a href="../../kineconcept/reading/index.html">Kinematics Conceptually</a></li>
+            <li><a href="../../kinegrph/reading/index.html">Kinematics by Graphs</a></li>
+            <li><a href="../../Kinemat/reading/index.html">Kinematics by Algebra</a></li>
+            <li><a href="../../Newton/reading/index.html">Newton's Laws of Motion</a></li>
+            <li><a href="index.html">Free Body Diagrams</a></li>
+            <li><a href="../../Equlibrium/reading/index.html">Torque</a></li>
+            <li><a href="../../circular/reading/index.html">Circular Motion</a></li>
+            <li><a href="../../projectile/reading/index.html">Projectile Motion</a></li>
+            <li><a href="../../Kepler/reading/kepler/index.html">Kepler's Laws</a></li>
+            <li><a href="../../Kepler/reading/index.html">Universal Gravity</a></li>
+            <li><a href="../../Kepler/reading/further/index.html">Gravity &amp; Beyond</a></li>
+            <li><a href="../../energy/reading/index.html">Energy</a></li>
+            <li><a href="../../impulse/reading/index.html">Momentum</a></li>
+            <li><a href="../../electro/reading/index.html">Electrostatics</a></li>
+            <li><a href="../../coulomb/reading/index.html">Coulomb's Law</a></li>
+            <li><a href="../../Elec_Ohm/reading/index.html">Electricity Basics</a></li>
+            <li><a href="../../circuit/reading/index.html">d.c. Circuit Analysis (Resistor Reduction)</a></li>
+            <li><a href="../../Kirchoff/reading/index.html">d.c. Circtuis (Kirchoff's Rules)</a></li>
+            <li><a href="../../magnetism/reading/index.html">ElectroMagnetism</a></li>
+            <li><a href="../../lightintro/reading/index.html">Light Introduction</a></li>
+            <li><a href="questions/index.html" target="_blank">Unit Questions</a></li>
+            <li><a href="../../workbook/index.html">Workbook</a></li>
+          </ul>
+        </div>
+      </li>
+      </ul>
+    </td>
+  </tr>
+</table>
+<br>
+<!-- #BeginEditable "Body of Page" --> 
+<table width="600" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td><p><img src="pics/fbd_title_Web.jpg" alt="Free Body Diagram Title" width="700" height="72"><br>
+    </p>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center"><div align="left"><a href="index.html"><img src="../../pics/PagePrevious.gif" width="21" height="19" alt="previous page"></a></div></td>
+          <td align="right">page 1 <a href="index02.html"><img src="../../pics/PageNext.gif" width="21" height="19"></a></td>
+        </tr>
+      </table>
+      <table width="700" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><p class="HighLightBox">This text is meant to accompany class discussions. It is not everything there is to know about the forces. It is meant as a&nbsp; prep for class. <a href="../notes/index.html" class="style3">More detailed notes and examples are given in the class notes, presentations, and demonstrations (click here.)<br>
+            <br>
+            <a href="../fbd_Summary_sheet.pdf" class="style3">Fill out this summary sheet as after reading each section, (click here).</a> (Your teacher may give you a Google Apps link instead.</p>
+            <p><br>
+      </p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="box1">Introduction to Free Body Diagrams</td>
+        </tr>
+        <tr>
+          <td><p>Free body diagrams, often abbreviated &quot;fbd&quot; are a tool for solving problems with multiple forces acting on a single body. The methods developed here can also be used for the summation of force fields. The purpose of a free body diagram is to reduce the complexity of situation for easy analysis. The diagram is used as a starting point to develop a mathematical model of the forces acting on an object.</p>
+            <p><strong>In order to effectively use free body digram to analyze a body's motion you must be accomplish four skills.</strong></p>
+            <table width="100%" border="1" cellspacing="1" cellpadding="1">
+              <tr>
+                <td bgcolor="#FFFFCC"><ol>
+                  <li>Identify the force acting on a body</li>
+                  <li>Identify the direction of each acting force and draw vectors representing the forces</li>
+                  <li>Create a pair of equations from a free body</li>
+                  <li>Do the math. This usually involves systems of equations.</li>
+                </ol></td>
+              </tr>
+            </table>
+            <p>Below is a picture of a flying jet.</p>
+            <p align="center"><img src="../../Newton/reading/pics/Swat_Kat_Jet1.png" width="646" height="330"></p>
+            <p align="justify">Imagine how time consuming and cluttered it would be if you were to draw this picture with the forces acting on the plane. It might look like the one below.</p>
+            <p align="center"><img src="../../Newton/reading/pics/Swat_Kat_JetW_Forces.png" width="646" height="330"></p>
+            <p align="justify">&nbsp;&nbsp;&nbsp; A free body diagram is a picture showing the forces that act on a body. Most importantly it shows the forces' directions without the clutter of drawing the body.</p>
+            <p align="justify"><br>
+  &nbsp;&nbsp;&nbsp;&nbsp; The word &ldquo;body&rdquo; is used to describe any object. But physicists and engineers likes to simplify the drawing of the object by drawing a dot instead of a detailed picture. Occasionally some simple details are added to create further clarify the situation. Below is an example of a &ldquo;body.&rdquo;</p>
+            <p align="center"><img src="pics/Freebody_Dot.png" width="19" height="19"></p>
+            <p align="left">A free body diagram of the jet might look like the one below.</p>
+            <p align="center"><img src="../../Newton/reading/pics/SwatKat_Jet_fbd.png" width="338" height="197"></p>
+          <p align="center">&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td class="box1"><a name="weight"></a>Weight</td>
+        </tr>
+        <tr>
+          <td><p align="justify"><br>
+            Weight is a term we use to describe the pull of gravity. If a physicist had defined the terms we use everyday in our conversations with each other, then instead of &ldquo;weighing 120 pounds&rdquo; at the doctor&rsquo;s office, the doctor would instead &ldquo;measure the pull of gravity as a 120 pound force.&rdquo;</p>
+          <p align="center"><img src="pics/Doctors_Report.png" width="402" height="217"></p>
+          <p align="justify">If a body has mass then is has weight when it is near the surface of the Earth. Weight always pulls down towards the center of the Earth. </p>
+          <table width="100%" border="1" cellspacing="1" cellpadding="1">
+            <tr>
+              <td bgcolor="#FFFFCC"><p align="justify" class="TextHighLight">Drawing the weight's force on an free body diagram.</p>
+                <p align="justify">On a free body diagram, &quot;fbd,&quot; weight, &quot;mg,&quot; is ALWAYS drawn pulling towards the ground. The direction  the body is moving and the other forces acting on the body do not change weight's direction on a free body diagram.</p>
+                <p align="center"><img src="pics/Freebody_dot_with_mg.png" alt="" width="27" height="69"></p></td>
+            </tr>
+          </table>
+          <p>Weight is defined at the mass of a body times the pull of gravity. Using our math model this is written as </p>
+          <p align="center"><strong>W=mg</strong><br>
+            </p>
+          <p align="justify">Where &ldquo;W&rdquo; is the weight measured in Newtons [N.] Always use a Capital &ldquo;N.&rdquo; [The letter you write must look like the accepted capital &ldquo;N.&rdquo; That means it cannot look like a lower case &ldquo;n&rdquo; that is written bigger.] &quot;m&quot; is the mass in kilograms. &quot;g&quot; is the acceleration due to gravity. On the Earth's surface this is 9.80 m/s<sup>2</sup>. In our system of weights and measures, the unit of force is the pound. It is abbreviated &quot;lb.&quot;</p>
+          <p align="justify">In order to have the weight force on a free body diagram, the body must have mass and it need to be on a very near a large body such as a planet.</p>
+          <p align="justify">&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td class="box1"><a name="normal"></a>Normal Force</td>
+        </tr>
+        <tr>
+          <td><p><br>
+            The normal force is a force that is:</p>
+            <ol>
+              <li>perpendicular to the surface,</li>
+              <li>a reaction force to presence of other forces.</li>
+            </ol>
+          <p align="left">The normal force keeps two surfaces from sinking into each other. The symbol for the normal force is the Greek letter &ldquo;eta.&rdquo; It look like a large lower case &ldquo;n&rdquo; with a tail.</p>
+          <p align="center"><img src="pics/Eta_symbol.png" alt="eta" width="282" height="27"></p>
+          <p align="justify">Currently you are sitting down or standing. The ground experiences a force pulling you down. The normal force is perpendicular to the surface and is a reaction to the force(s) holding you down. If you are standing on an incline the normal force would be the reaction force keeping you from sinking into the incline AND it would be perpendicular to the incline's surface.</p>
+          <p align="center"><img src="pics/Normal force incline.png" width="284" height="216"></p>
+          <p align="left">If you were to lean on a wall, it is the normal force that keeps you from puncturing the wall. In order to have normal force, you must have a contact surface touching something. For example, your shoe on the floor. The floor exerts a normal force upwards against the shoe while the show exerts a normal force down against the floor.</p>
+          <p align="left">&nbsp;</p>
+          <table width="100%" border="1" cellspacing="1" cellpadding="1">
+            <tr>
+              <td bgcolor="#FFFFCC"><p align="justify"><span class="TextHighLight">Drawing the normal force on an free body diagram.</span></p>
+                <p align="justify">On a free body diagram, &quot;fbd,&quot; the normal force, &quot;&eta;,&quot; is ALWAYS drawn normal to the surface of contact. The direction  the body is moving and the other forces acting on the body do not change the normal force's direction on a free body diagram.</p>
+                <p align="center"><img src="pics/car_on_hill_more.png" width="506" height="268"></p></td>
+            </tr>
+          </table>
+          <p align="left">&nbsp;</p>
+          <p align="left">&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td class="box1">Friction</td>
+        </tr>
+        <tr>
+          <td><p><br>
+            There are many types of frictional forces. No matter what math formula is used to describe the magnitude of the frictional force, they all point in the opposite direction of motion, (or the intended motion if there were no friction,) and parallel to the surfaces of contact. The symbol for a frictional force is a cursive &quot;F.&quot; (The &quot;F&quot; you write does not need to look exactly like the one below, but it should look &quot;cursive.&quot;</p>
+            <p align="center"><img src="pics/FRiction Symbol.gif" width="18" height="24"></p>
+            <p>We are going to focus in friction due to contact between two surfaces. This frictional force&rsquo;s magnitude is a percentage of the normal force pressing the two surfaces together.&nbsp; </p>
+          <p align="center"><img src="pics/Friction formula.gif" alt="Friction formla" width="215" height="89"></p>
+          <p>The &ldquo;coefficient of friction&rdquo; is the percentage of the normal force. It is found through experimentation and depends on the nature of the materials in contact.&nbsp; <span class="TextHighLight">Just because there is a normal force does not mean that there has to be a frictional force.</span>  If you were standing on a the slickest ice in the world, a normal force would be keeping your from sinking into the ice but the frictional force of the &ldquo;slickest&rdquo; ice in the world might have no measurable value. Below is a table of examples frictional coefficients.</p>          
+          <table border="1" align="center" cellpadding="2" cellspacing="2">
+            <tr>
+              <td width="119" valign="top"><p>Top material</p></td>
+              <td width="119" valign="top"><p>Bottom material</p></td>
+              <td width="119" valign="top"><p align="center">Static coefficient</p></td>
+              <td width="119" valign="top"><p align="center">Kinetic coefficient</p></td>
+            </tr>
+            <tr>
+              <td valign="top">ice</td>
+              <td valign="top">ice</td>
+              <td valign="top"><div align="center">0.02</div></td>
+              <td valign="top"><div align="center">- - - </div></td>
+            </tr>
+            <tr>
+              <td width="119" valign="top"><p>wood</p></td>
+              <td width="119" valign="top"><p>on dry wood</p></td>
+              <td width="119" valign="top"><p align="center">0.3</p></td>
+              <td width="119" valign="top"><p align="center">0.2</p></td>
+            </tr>
+            <tr>
+              <td width="119" valign="top"><p>iron</p></td>
+              <td width="119" valign="top"><p>on clean iron</p></td>
+              <td width="119" valign="top"><p align="center">1.1</p></td>
+              <td width="119" valign="top"><p align="center">0.15</p></td>
+            </tr>
+            <tr>
+              <td width="119" valign="top"><p>iron</p></td>
+              <td width="119" valign="top"><p>on clean ,dry, oak</p></td>
+              <td width="119" valign="top"><p align="center">- - - </p></td>
+              <td width="119" valign="top"><p align="center">0.49</p></td>
+            </tr>
+            <tr>
+              <td width="119" valign="top"><p>graphite</p></td>
+              <td width="119" valign="top"><p>on steel</p></td>
+              <td width="119" valign="top"><p align="center">&nbsp;</p></td>
+              <td width="119" valign="top"><p align="center">0.1</p></td>
+            </tr>
+            <tr>
+              <td width="119" valign="top"><p>skin</p></td>
+              <td width="119" valign="top"><p>on clean glass</p></td>
+              <td width="119" valign="top"><p align="center">0.9 &ndash; 1</p></td>
+              <td width="119" valign="top"><p align="center">- - -</p></td>
+            </tr>
+            <tr>
+              <td width="119" valign="top"><p>Rubber tire </p></td>
+              <td width="119" valign="top"><p>on asphalt</p></td>
+              <td width="119" valign="top"><p align="center">0.7</p></td>
+              <td width="119" valign="top"><p align="center">0.45</p></td>
+            </tr>
+            <tr>
+              <td width="478" colspan="4" valign="top"><p>Sources: </p>
+                <ul>
+                  <li><a href="http://hyperphysics.phy-astr.gsu.edu/Hbase/Mechanics/frictire.html" target="_blank">http://hyperphysics.phy-astr.gsu.edu/Hbase/Mechanics/frictire.html</a></li>
+                  <li><a href="http://physics.info/friction" target="_blank" align="left">http://physics.info/friction</a></li>
+                  <li><a href="https://engineeringlibrary.org/reference/coefficient-of-friction" target="_blank" align="left">https://engineeringlibrary.org/reference/coefficient-of-friction                </a></li>
+                </ul></td>
+            </tr>
+          </table>
+          <div align="center"></div>
+          <p align="justify">Notice that some coefficients are greater than one. In the table above you can see two types of frictional forces exist between the surfaces, static and kinetic friction. Static friction means the <u>two surfaces</u> in contact are not sliding across each other. Kinetic friction means the two surfaces are sliding across each other.</p>
+          <p align="center"><img src="../../Newton/reading/pics/Friction-Animation-boxes.gif" width="700" height="400" alt=""/>
+            
+          </p>
+          <p align="center"><img src="pics/Slides.jpg" width="624" height="236"></p>
+          <p align="justify">The girl that is standing up in the middle of the playground slide, (right side,) is experiencing static friction between her shoes and the slide because these two surfaces are not moving relative to each other. The girl that is moving down the slide, (left side,) is experiencing kinetic friction between her pants and the slide. This is because the pants are moving relative to the slide&rsquo;s surface. </p>
+          <p align="justify">In both cases the friction opposes the direction of motion (or the intended direction without friction) and is parallel to surface. The free body for each girl would look like the one below. The other forces have been dimmed to highlight the frictional force.</p>
+          <p align="center"><img src="pics/FrictionSlideFBD_With_Others.png" width="310" height="190"></p>
+          <p align="center">&nbsp;</p>
+          <hr>
+          <p>There are six basic principles of friction due to contact between surfaces.</p>
+          <hr>
+          <ol>
+            <li>
+              <div align="justify">Friction acts parallel to the surfaces that are in contact and in the direction opposite to the motion of the object or to any force tending to produce such motion. </div>
+            </li>
+            <li>
+              <div align="justify">Friction depends on the nature of the materials in&nbsp; contact and the smoothness of their surfaces. </div>
+            </li>
+            <li>
+              <div align="justify">Sliding friction is less than starting friction. Sliding and starting friction are called kinetic and static friction respectively.</div>
+            </li>
+            <li>
+              <div align="justify">Kinetic friction is practically independent of speed. </div>
+            </li>
+            <li>
+              <div align="justify">Friction is practically independent of the area of contact. </div>
+            </li>
+            <li>
+              <div align="justify">Friction is directly proportional to the force pressing the surfaces together. The reaction force to pressing the surface is the NORMAL force. (See the formula above.)</div>
+            </li>
+            </ol>
+          <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td><table width="100%" border="1" cellspacing="1" cellpadding="1">
+            <tr>
+              <td bgcolor="#FFFFCC"><p class="TextHighLight">Drawing the frictional force on a free body diagram.</p>
+                <p>Notice that the frictional force's vector is (1) parallel to the force, (2) opposite the direction of motion -or intended motion.</p>
+                <p align="center"><img src="pics/Car_and_Boxes2.png" width="689" height="300"></p></td>
+            </tr>
+          </table>
+            <p>Below is a box being pushed across a floor <u>AT A CONSTANT VELOCITY</u>.</p>
+            <p align="center"><img src="pics/Box_Pushed.png" width="236" height="86"></p>
+            <p align="left">Below are two graphs of the pushing force as a function of time. The top graphed is plain and the bottom graphed is the same with some added notes. </p>
+            <p align="center"><img src="pics/Box_Pushed_Graphs.png" width="533" height="362"></p>
+            <p align="left">The box does not move until the pushing force equals the static friction's force value. Because kinetic friction is LESS than static friction, the pushing force's magnitude drops to the kinetic friction's value. </p>
+            <hr>
+            <p><strong>One method for determining the coefficient of <span class="Solution_Title">KINETIC</span> friction.</strong> (Does not work for STATIC friction.<span style="text-align: center">)</span></p>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <td align="center"><img src="pics/Friction_On_Ramp.gif" width="550" height="300" alt=""/></td>
+                </tr>
+              </tbody>
+            </table>
+            <p>&nbsp;</p>
+          <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td class="box1"><a name="tension"></a>Tension</td>
+        </tr>
+        <tr>
+          <td><p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tension exists in any body that is pulled by to opposing forces.&nbsp; Typically we talk about ropes and chains as being in tension but any body can be in put in tension. Tension is a pair of equal and opposite forces.</p>
+          <p align="center"><img src="pics/Tension_Tug_of_War.png" width="313" height="52"></p>
+          <p align="justify">In the drawing above the two 20 N forces represent the tension in the rope. The forces are equal in magnitude and pulling in opposite directions. A taught rope provides its own action reaction pair. The tension in the rope is said to be &ldquo;20 N.&rdquo; In the picture below, the girls' arms are in tension.</p>
+          <p align="center"><img src="pics/Girl's Arms in Tension.jpg" width="682" height="512"></p>
+          <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One of the clever features of tension and ropes has to do with corners and a single pulley. If the rope passes around a single pulley then the direction of the tension is redirected. Assuming the pulley is frictionless (as are all of our pulleys) then the tension's magnitude will remained unchanged. The symbol for tension is &quot;<span class="TextHighLight">T</span>.&quot; There is not  a formula for tension. Tension's value has to be either known in the problem or calculated from the other forces.</p>
+          <p align="center"><img src="pics/Tension_Explained_Diagram.png" width="550" height="400"></p>
+          <p align="left">In order to have a tension your must have a rope or chain. You can also have a tension when any object  is being stretched. Like the arms of the girls in the photo above.</p>
+          <p align="center"><img src="pics/700HP-Turbo-Cummins-VS-Ford-Powerstroke-On-Super-Swampers-Tug-A-War-cl.jpg" width="600" height="300"></p>
+          <p align="left" class="Citations">http://www.nocarnofun.com/wp-content/uploads/2015/04/700HP-Turbo-Cummins-VS-Ford-Powerstroke-On-Super-Swampers-Tug-A-War-cl.jpg Image accessed on Jan 1, 2017</p>
+          <p align="left">In a &quot;tug of war&quot; between two trucks, neither truck accelerates. They move at a constant velocity. The white truck pulls with a measured force of 12,000 N. How much force is on the other side of the yellow rope?</p>
+          <form name="form1" method="post" action="">
+            <label for="select"></label>
+            <select name="select" id="select">
+              <option selected>Answer</option>
+              <option>Because it is NOT accelerating, the force on the other end of the rope is also 12,000N.</option>
+            </select>
+          </form>
+          <p align="left">&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td class="box1">Net Force</td>
+        </tr>
+        <tr>
+          <td><p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The &quot;net&quot; of anything is what is left over after everything is added and subtracted. Example: When you get hired for a job the employer promises $10 per hour. But when you get your paycheck your <span class="style3"><strong>NET</strong></span> pay is $7 per hour. This is because the federal government, state government and someone called &quot;FICA&quot; took out $ 3. What the employer could have said is that your pay is $10 per hour but your <span class="TextHighLight">net</span> pay will be $7 per hour.</p>
+          <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When a body is changing velocity the net force is not zero. This is because Newton's 2nd law says an unbalanced force is visually demonstrated by a body changing its velocity. The &quot;unbalanced&quot; force described earlier is actually known to physicists as the &quot;net force.&quot; Below is an example showing you what this looks like as well as the various free body diagrams. The net force is represented by the symbol,</p>
+          <p align="center" class="TextHighLight">F<sub>NET</sub></span></p>
+          <p align="center"><img src="../../Newton/reading/pics/Fnet-Examples.gif" width="550" height="400" alt=""/>
+            
+          </p>
+          <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;<strong>&nbsp;<span class="textBoldRed">The vector that represents the net force does not touch the body</span></strong>. This is because the &quot;net force&quot; is not a force that acts on the body. It is the mathematical result of adding up all the other forces. That is why it is called &quot;net.&quot;</p>
+          <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Note in the animation above how when the opposite force vectors are the same length the net force is zero and the body moves with a constant velocity.[ Examples &quot;C&quot; and &quot;D.&quot; ] When the force in one direction are bigger than the forces in the other directions, this is shown on the free body by having one arrow is longer than the other. When this happens the net force is not zero and the body accelerates or decelerates. [Examples &quot;A&quot; and &quot;B.&quot; ]</p>
+          <p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The math used to model the situation is derived directly from the the free body diagram. </p>
+          <p align="left">&nbsp;</p>
+          <table width="100%" border="1" cellspacing="1" cellpadding="1">
+            <tr>
+              <td><a name="quiz"></a><img src="../../pics/Quiz_Title.jpg" width="156" height="55"></td>
+            </tr>
+            <tr>
+              <td align="center" valign="top" bgcolor="#FFFBCE"><p><iframe src="quiz_page1_V2.htm"
+width="715" height="720" marginwidth="0" marginheight="0"
+hspace="0" vspace="0" frameborder="0" scrolling=yes>
+</iframe></p>
+                </td>
+            </tr>
+        </table></td>
+        </tr>
+      </table>      
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="33%" align="left" valign="middle"><a href="index.html"><img src="../../pics/Arrow-Previous-Page.png" width="200" height="50" alt=""/></a></td>
+          <td width="33%" align="center" valign="middle"><img src="../../pics/Arrow-1st-Page.png" width="200" height="50" alt=""/></td>
+          <td align="right"><a href="index02.html"><img src="../../pics/Arrow-Next-Page.png" alt="" width="200" height="50" style=""/></a></td>
+        </tr>
+    </table>      <p>&nbsp;</p></td>
+  </tr>
+</table>
+<!-- #EndEditable -->
+<CENTER>
+</CENTER>
+<hr>
+<P class="bodystyle">by Tony Wayne ...(If you are a teacher, please feel free to use these resources in your teaching.) </P>
+<table width="100%" border="1" cellpadding="1">
+  <tbody>
+    <tr>
+      <td bgcolor="#FEFACA"><span class="medium">The owner of this website does not collect cookies when the site is visited. However, this site uses and or embeds Adobe, Apple, GoDaddy, Google, and YouTube products. These companies collect cookies when their producs are used on my pages.<a href="../../privacy/index.html"> Click here to go to them to find out more about how they use their cookies.</a> If you do not agree with any of their policies then leave this site now. </span></td>
+    </tr>
+  </tbody>
+</table>
+<script type="text/javascript">
+<!--
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"../SpryAssets/SpryMenuBarDownHover.gif", imgRight:"../SpryAssets/SpryMenuBarRightHover.gif"});
+//-->
+</script>
+</BODY>
+<!-- #EndTemplate --></HTML>
